@@ -4,6 +4,7 @@
 [React Bootstrap](https://react-bootstrap-v4.netlify.app/)
 [Adding CSS modules stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
 [Using CSS modules to style react components](https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87)
+[React router Docs](https://v5.reactrouter.com/web/guides/quick-start)
 
 Welcome,
 
@@ -112,3 +113,5 @@ DON'T DO THIS...
 `npm audit fix --force`
 
 `npm install react-bootstrap@1.6.3 bootstrap@4.6.0`
+
+`npm install react-router-dom@5.3.0`
