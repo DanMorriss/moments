@@ -2,6 +2,8 @@
 
 [Live Site](https://dan-morriss-moments-09a1658577b2.herokuapp.com/)
 [React Bootstrap](https://react-bootstrap-v4.netlify.app/)
+[Adding CSS modules stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+[Using CSS modules to style react components](https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87)
 
 Welcome,
 
@@ -103,7 +105,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
 
 `npm install`
 
