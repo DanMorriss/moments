@@ -1,5 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+[Live Site](https://dan-morriss-moments-09a1658577b2.herokuapp.com/)
+[React Bootstrap](https://react-bootstrap-v4.netlify.app/)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
@@ -104,4 +107,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 `npm install`
 
+DON'T DO THIS...
 `npm audit fix --force`
+
+`npm install react-bootstrap@1.6.3 bootstrap@4.6.0`
