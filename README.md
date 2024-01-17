@@ -121,3 +121,4 @@ DON'T DO THIS...
 
 option shift f > format document
 command shipt p > command pallet > Format document
+command shipt p > command pallet > detect indentation from content
