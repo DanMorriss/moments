@@ -118,3 +118,6 @@ DON'T DO THIS...
 `npm install react-router-dom@5.3.0`
 
 `npm install axios`
+
+option shift f > format document
+command shipt p > command pallet > Format document
