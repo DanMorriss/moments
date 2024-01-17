@@ -9,7 +9,7 @@ import { createContext, useEffect, useState } from "react";
 import axios from "axios";
 
 export const CurrentUserContext = createContext();
-export const setCurrentUserContext = createContext();
+export const SetCurrentUserContext = createContext();
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
-      <setCurrentUserContext.Provider value={setCurrentUser}>
+      <SetCurrentUserContext.Provider value={setCurrentUser}>
         <div className={styles.App}>
           <NavBar />
           <Container className={styles.Main}>
@@ -41,7 +41,7 @@ function App() {
             </Switch>
           </Container>
         </div>
-      </setCurrentUserContext.Provider>
+      </SetCurrentUserContext.Provider>
     </CurrentUserContext.Provider>
   );
 }

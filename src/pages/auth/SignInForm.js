@@ -14,10 +14,10 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
-import { setCurrentUserContext } from "../../App";
+import { SetCurrentUserContext } from "../../App";
 
 function SignInForm() {
-  const setCurrentUser = useContext(setCurrentUserContext);
+  const setCurrentUser = useContext(SetCurrentUserContext);
 
   const [signInData, setSignInData] = useState({
     username: "",
@@ -30,9 +30,10 @@ function SignInForm() {
   const history = useHistory();
   const handleSubmit = async (event) => {
     event.preventDefault();
+
     try {
       const { data } = await axios.post("/dj-rest-auth/login/", signInData);
-      setCurrentUser(data);
+      setCurrentUser(data.user);
       history.push("/");
     } catch (err) {
       setErrors(err.response?.data);
@@ -68,6 +69,7 @@ function SignInForm() {
                 {message}
               </Alert>
             ))}
+
             <Form.Group controlId="password">
               <Form.Label className="d-none">Password</Form.Label>
               <Form.Control
