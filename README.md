@@ -120,5 +120,19 @@ DON'T DO THIS...
 `npm install axios`
 
 option shift f > format document
+
 command shipt p > command pallet > Format document
+
 command shipt p > command pallet > detect indentation from content
+
+Tutor support
+
+I am working through the moments PP5 Advanced Frontend walkthrough after completing the drf-api backend. I am getting an 'uncaught runtime error' when I try to sign up a new user or log in an existing user. The information is geting sent to the database (so I can create a new user), but then the error displays. When I look at the console in dev tools I see AxiosError, so must have a setting in the drf-api repo wrong? After a bit more digging in the devtools I found that its missing a CORS header so request was blocked.
+
+I went through all the lessons up to the same point to see if I missed anything and couldn't find any differences so I checked all of my code against the source code repo using DiffChecker and there are no differences. I have gone back into the drf-api codebase and added to the allowed hosts list thinking the api might be preventing the request. As the moments code is the same I assume that the issue is a dependency that I don't have, a missing config var in heroku or something in the drf-api settings.py, but don't know where else to look. I have tried using slack, but none on there has been able to help.
+
+Code Anywhere
+
+CLIENT_ORIGIN_DEV: https://3000-danmorriss-moments-gxkf8i6mub.us2.codeanyapp.com
+
+https://3000-danmorriss-moments-gxkf8i6mub.us2.codeanyapp.com
