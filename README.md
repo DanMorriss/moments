@@ -1,11 +1,20 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 [Live Site](https://dan-morriss-moments-09a1658577b2.herokuapp.com/)
+
 [React Bootstrap](https://react-bootstrap-v4.netlify.app/)
+
 [Adding CSS modules stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+
 [Using CSS modules to style react components](https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87)
+
 [React router Docs](https://v5.reactrouter.com/web/guides/quick-start)
+
 [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+
+[Destructuring rules](https://zaiste.net/posts/javascript-destructuring-assignment-default-values/)
+
+[Inline if with logical && operator](https://legacy.reactjs.org/docs/conditional-rendering.html#inline-if-with-logical--operator)
 
 Welcome,
 
