@@ -32,7 +32,7 @@ function PostCreateForm() {
   };
 
   const handleChangeImage = (event) => {
-    if (event.targe.files.length) {
+    if (event.target.files.length) {
       URL.revokeObjectURL(image);
       setPostData({
         ...postData,
@@ -52,7 +52,6 @@ function PostCreateForm() {
           onChange={handleChange}
         />
       </Form.Group>
-
       <Form.Group>
         <Form.Label>Content</Form.Label>
         <Form.Control

@@ -16,6 +16,14 @@
 
 [Inline if with logical && operator](https://legacy.reactjs.org/docs/conditional-rendering.html#inline-if-with-logical--operator)
 
+[Web API URL's](https://developer.mozilla.org/en-US/docs/Web/API/URL)
+
+[Create object URL](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL_static)
+
+[Revoke object URL](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL_static)
+
+[Form data class](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
