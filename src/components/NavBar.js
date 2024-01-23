@@ -97,9 +97,7 @@ const NavBar = () => {
         {currentUser && addPostIcon}
         <Navbar.Toggle
           ref={ref}
-          onClick={() => {
-            setExpanded(!expanded);
-          }}
+          onClick={() => setExpanded(!expanded)}
           aria-controls="basic-navbar-nav"
         />
         <Navbar.Collapse id="basic-navbar-nav">
