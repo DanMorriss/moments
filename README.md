@@ -24,6 +24,8 @@
 
 [Form data class](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
 
+[Conditional (ternirary) Operator Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator#conditional_chains)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
