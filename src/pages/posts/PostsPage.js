@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Post from "./Post";
 
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
+
+import Post from "./Post";
+import Asset from "../../components/Asset";
 
 import appStyles from "../../App.module.css";
 import styles from "../../styles/PostsPage.module.css";
@@ -12,8 +14,8 @@ import { useLocation } from "react-router";
 import { axiosReq } from "../../api/axiosDefaults";
 
 import NoResults from "../../assets/no-results.png";
-import Asset from "../../components/Asset";
-import { FormControl } from "react-bootstrap";
+import InfiniteScroll from "react-infinite-scroll-component";
+import { fetchMoreData } from "../../utils/utils";
 
 function PostsPage({ message, filter = "" }) {
   const [posts, setPosts] = useState({ results: [] });
@@ -36,10 +38,11 @@ function PostsPage({ message, filter = "" }) {
     setHasLoaded(false);
     const timer = setTimeout(() => {
       fetchPosts();
-    }, 1000)
+    }, 1000);
+
     return () => {
       clearTimeout(timer);
-    }
+    };
   }, [filter, query, pathname]);
 
   return (
@@ -51,7 +54,7 @@ function PostsPage({ message, filter = "" }) {
           className={styles.SearchBar}
           onSubmit={(event) => event.preventDefault()}
         >
-          <FormControl
+          <Form.Control
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             type="text"
@@ -63,9 +66,15 @@ function PostsPage({ message, filter = "" }) {
         {hasLoaded ? (
           <>
             {posts.results.length ? (
-              posts.results.map((post) => (
-                <Post key={post.id} {...post} setPosts={setPosts} />
-              ))
+              <InfiniteScroll
+                children={posts.results.map((post) => (
+                  <Post key={post.id} {...post} setPosts={setPosts} />
+                ))}
+                dataLength={posts.results.length}
+                loader={<Asset spinner />}
+                hasMore={!!posts.next}
+                next={() => fetchMoreData(posts, setPosts)}
+              />
             ) : (
               <Container className={appStyles.Content}>
                 <Asset src={NoResults} message={message} />

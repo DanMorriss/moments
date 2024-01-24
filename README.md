@@ -26,6 +26,10 @@
 
 [Conditional (ternirary) Operator Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator#conditional_chains)
 
+[Infinite Scroll Docs](https://www.npmjs.com/package/react-infinite-scroll-component)
+
+[Double NOT !!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT#double_not_!!)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
@@ -137,6 +141,8 @@ DON'T DO THIS...
 `npm install react-router-dom@5.3.0`
 
 `npm install axios`
+
+`npm install react-infinite-scroll-component`
 
 option shift f > format document
 
