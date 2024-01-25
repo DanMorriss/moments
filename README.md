@@ -30,6 +30,10 @@
 
 [Double NOT !!](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT#double_not_!!)
 
+[React Bootstrap custom dropdown menu](https://react-bootstrap-v4.netlify.app/components/dropdowns/#custom-dropdown-components)
+
+[Forwarding Refs](https://legacy.reactjs.org/docs/forwarding-refs.html#forwarding-refs-to-dom-components)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
