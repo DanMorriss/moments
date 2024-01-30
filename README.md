@@ -34,6 +34,10 @@
 
 [Forwarding Refs](https://legacy.reactjs.org/docs/forwarding-refs.html#forwarding-refs-to-dom-components)
 
+[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+[React Testing Query Methods](https://testing-library.com/docs/queries/about/)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
@@ -153,3 +157,7 @@ option shift f > format document
 command shipt p > command pallet > Format document
 
 command shipt p > command pallet > detect indentation from content
+
+the --save-dev will run it only in the development server (this is for testing)
+
+`npm install msw --save-dev`
