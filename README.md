@@ -40,6 +40,12 @@
 
 [Mock Service Worker Docs](https://mswjs.io/docs/)
 
+[Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+[NPM audit](https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities)
+
+[]
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
@@ -174,3 +180,9 @@ Cope [package.json](https://github.com/Code-Institute-Solutions/moments/blob/mas
 `npm install`
 
 `nvm install 16 && nvm use 16`
+
+`npm install jwt-decode`
+
+`npm audit`
+
+`npm audit fix`
