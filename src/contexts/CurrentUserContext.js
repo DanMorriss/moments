@@ -38,10 +38,9 @@ export const CurrentUserProvider = ({ children }) => {
               if (prevCurrentUser) {
                 history.push("/signin");
               }
-              removeTokenTimestamp();
               return null;
             });
-
+            removeTokenTimestamp();
             return config;
           }
         }
