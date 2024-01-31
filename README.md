@@ -38,6 +38,8 @@
 
 [React Testing Query Methods](https://testing-library.com/docs/queries/about/)
 
+[Mock Service Worker Docs](https://mswjs.io/docs/)
+
 Welcome,
 
 This is the Code Institute student template for React apps on the Codeanywhere IDE. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.  
@@ -161,3 +163,14 @@ command shipt p > command pallet > detect indentation from content
 the --save-dev will run it only in the development server (this is for testing)
 
 `npm install msw --save-dev`
+
+`npm install --save-dev babel-jest @babel/core`
+
+`npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-jest`
+
+Delete: package.json, package-lock.json, node modules folder.
+Cope [package.json](https://github.com/Code-Institute-Solutions/moments/blob/master/package.json) from walkthrough
+
+`npm install`
+
+`nvm install 16 && nvm use 16`
