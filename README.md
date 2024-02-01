@@ -44,7 +44,9 @@
 
 [NPM audit](https://docs.npmjs.com/auditing-package-dependencies-for-security-vulnerabilities)
 
-[]
+[React Calendar](https://www.npmjs.com/package/react-calendar)
+
+[Video example of React Calendar](https://www.youtube.com/watch?v=WutUO81wE90)
 
 Welcome,
 
