@@ -182,6 +182,13 @@ Cope [package.json](https://github.com/Code-Institute-Solutions/moments/blob/mas
 This needs to be run each time you open the workspace.
 `nvm install 16 && nvm use 16`
 
+After adding this code into package.json it should not need the above command to work.
+
+`  "engines": {
+    "node": "16.19.1",
+    "npm": "8.19.3"
+  }`
+
 `npm install jwt-decode`
 
 `npm audit`
