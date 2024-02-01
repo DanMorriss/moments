@@ -179,6 +179,7 @@ Cope [package.json](https://github.com/Code-Institute-Solutions/moments/blob/mas
 
 `npm install`
 
+This needs to be run each time you open the workspace.
 `nvm install 16 && nvm use 16`
 
 `npm install jwt-decode`
